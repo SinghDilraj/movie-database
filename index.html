@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>MOVIE, TV SERIES OR EPISODES</title>
+</head>
+<body>
+  <header>
+    <h1>ENTERTAINMENT SEARCHER</h1>
+    <img src="logo.jpg" alt="cartoon television">
+    <h1 id="heading">WHAT WOULD YOU LIKE TO SEARCH FOR</h1>
+      <div id="search-form">
+        <input type="search" name="search" id="search">
+        <div id="checkbox1" class="checkbox">
+            <input type="checkbox" name="movie" id="movie" value="movie">
+            <label for="movie">MOVIE</label>
+        </div>
+        <div id="checkbox2" class="checkbox">
+            <input type="checkbox" name="series" id="series" value="series">
+            <label for="series">SERIES</label>
+        </div>
+        <div id="checkbox3" class="checkbox">
+            <input type="checkbox" name="episode" id="episode" value="episode">
+            <label for="episode">EPISODE</label>
+        </div>
+          <button id="search-button">SEARCH</button>
+      </div>
+  </header>
+  <div id="container">
+    <ul id="list">
+
+    </ul>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>

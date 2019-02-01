@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+body > header > h1{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+body > header > img{
+  margin-left: 40%;
+}
+header > #search-form{
+  margin: 50px 67% 0 43%;
+}
+header > #search-form > input{
+  display: block;
+  height: 35px;
+}
+header > #search-form > button{
+  display: block;
+  padding: 10px;
+  background-color: rgb(60, 255, 0);
+  margin: 10px 0 0 45px;
+  height: 35px;
+  border-radius: 3px;
+  outline: none;
+}
+header > #search-form > .checkbox{
+  margin: 10px 0 0 50px;
+  display: block;
+  color: deeppink;
+  font-weight: bold;
+}
+header > #search-form > .checkbox > input{
+  display: inline;
+}
+header > #search-form > .checkbox > label{
+  display: inline;
+}
+#container{
+  margin-top: 10%;
+}
+#container > *{
+  text-align: center;
+  color: white;
+}
